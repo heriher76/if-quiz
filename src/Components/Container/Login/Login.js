@@ -68,10 +68,10 @@ class Login extends Component {
         <fieldset>
           <legend>Sign Up</legend>
           <label>Your name :</label>
-          <input type='text' placeholder='e.g:Zuhair Naqi' onChange={this.userName} />
+          <input type='text' placeholder='e.g:Heri Hermawan' onChange={this.userName} />
           <br /><br />
           <label>Email :</label>
-          <input type='email' placeholder='e.g:zuhair@fb.com' onChange={this.setEmail} />
+          <input type='email' placeholder='e.g:herhermawan007@gmail.com' onChange={this.setEmail} />
           <br /><br />
           <label>Password :</label>
           <input type='password' placeholder='e.g:****...' onChange={this.setPassword} />
